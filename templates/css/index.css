@@ -1,0 +1,72 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+main {
+  position: relative;
+  top: 100px;
+  margin: 0 3rem;
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #d699ff;
+  background-image: radial-gradient(
+      at 55% 2%,
+      hsla(273, 65%, 68%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 79% 50%, hsla(156, 75%, 74%, 1) 0px, transparent 50%);
+}
+.nav-bar {
+  z-index: 99;
+  border-radius: 100px 100px 0 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #8306d6;
+  background-image: radial-gradient(
+      at 55% 2%,
+      rgb(119, 55, 170) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 79% 50%, rgb(206, 177, 13) 0px, transparent 50%);
+}
+.nav-bar,
+button {
+  padding: 8px;
+}
+.header-app {
+  border-radius: 0 0 100px 100px;
+  height: 60px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #8306d6;
+  background-image: radial-gradient(
+      at 55% 2%,
+      rgb(119, 55, 170) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 79% 50%, rgb(206, 177, 13) 0px, transparent 50%);
+}
