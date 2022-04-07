@@ -42,11 +42,31 @@ body {
   background-repeat: no-repeat;
 }
 .card-container {
+  position: absolute;
+
   padding-top: 3rem;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+.card1 {
+  overflow-y: scroll;
+  box-shadow: rgb(0, 0, 0) 2px 0px 10px;
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: rgba(190, 79, 35, 0.637);
+  margin: 1rem;
+}
+.card-txt-cont {
+  display: none;
+}
+.img-container {
+}
+:hover.card1 {
+  transition: 0.5s ease-out;
+  transform: scale(1.01);
 }
 .section3 {
   color: white;
@@ -73,15 +93,7 @@ main h2 {
   color: white;
   margin: 30px;
 }
-.card1 {
-  overflow-y: scroll;
-  box-shadow: black 2px 0px 10px;
-  width: 200px;
-  height: 200px;
-  color: white;
-  background-color: violet;
-  margin: 1rem;
-}
+
 .nav-bar,
 button {
   padding: 8px;
@@ -110,14 +122,14 @@ button {
 .card-header {
   width: 100%;
   height: auto;
-  background-color: rgba(182, 42, 32, 0.98);
+  background-color: rgba(134, 11, 11, 0.425);
   padding: 1rem;
 }
 ::-webkit-scrollbar {
   display: none;
 }
 .section3 img {
-  position: static;
+  position: sticky;
   width: 200px;
   height: 200px;
 }
