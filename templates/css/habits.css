@@ -1,0 +1,73 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0px;
+}
+body {
+  background: url(../assets/zoltan-tasi-vHnVtLK8rCc-unsplash.jpg) center center /
+    cover no-repeat fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.nav-bar,
+button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.nav-bar {
+  border-radius: 25px 25px 0 0;
+  border: 2px solid white;
+  z-index: 99;
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+  background-color: rgba(255, 0, 0, 0.205);
+}
+.nav-container {
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.header-app {
+  color: white;
+  padding: 2rem;
+  height: 60px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-shadow: black 2px 2px 2px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.title-container {
+  padding: 1rem;
+  display: flex;
+}
+.h11 {
+  font-size: 4rem;
+  position: relative;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  display: relative;
+}
+.h12 {
+  position: relative;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  text-shadow: black 2px 2px 2px;
+  bottom: -30px;
+}
