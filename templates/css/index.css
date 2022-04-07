@@ -59,11 +59,7 @@ body {
   background-color: rgba(190, 79, 35, 0.637);
   margin: 1rem;
 }
-.card-txt-cont {
-  display: none;
-}
-.img-container {
-}
+
 :hover.card1 {
   transition: 0.5s ease-out;
   transform: scale(1.01);
@@ -119,6 +115,7 @@ button {
   justify-content: end;
   text-shadow: black 2px 2px 2px;
 }
+
 .card-header {
   width: 100%;
   height: auto;
