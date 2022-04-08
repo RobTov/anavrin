@@ -60,15 +60,14 @@ button {
 }
 
 .nav-bar {
-  border-radius: 25px 25px 0 0;
+  border-radius: 25px;
   border: 2px solid white;
   z-index: 99;
   position: fixed;
-
+  opacity: 70%;
   display: flex;
   justify-content: center;
   bottom: 0px;
-  background-color: rgba(255, 0, 0, 0.205);
 }
 .nav-container {
   bottom: 1rem;
@@ -76,4 +75,10 @@ button {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+:hover.nav-bar {
+  border-radius: 10px;
+  opacity: 100%;
+  transition: 1s ease;
+  background-color: teal;
 }
