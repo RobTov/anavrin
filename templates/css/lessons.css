@@ -1,0 +1,83 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0px;
+}
+body {
+  background: url(../assets/omid-armin-a5EbQpl-IHw-unsplash.jpg) center center /
+    cover no-repeat fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.nav-bar,
+button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.nav-bar {
+  border-radius: 25px 25px 0 0;
+  border: 2px solid white;
+  z-index: 99;
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+  background-color: rgba(255, 0, 0, 0.205);
+}
+.nav-container {
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.header-app {
+  color: white;
+  padding: 1rem;
+  height: 60px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-shadow: black 2px 2px 2px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.title-container {
+  padding: 1rem;
+  width: 100%;
+}
+.h11 {
+  left: 30%;
+  font-size: 4rem;
+  position: fixed;
+  color: rgb(255, 255, 255);
+  text-shadow: black 2px 2px 2px;
+  display: relative;
+}
+
+.lesson-num {
+  width: 50px;
+  height: 50px;
+  text-shadow: black 2px 2px 2px;
+  color: white;
+  top: 90vh;
+  background-color: ;
+  display: flex;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: white 10px thin;
+}

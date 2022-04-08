@@ -1,0 +1,74 @@
+//source
+"https://balancethegrind.co/daily-routines/elon-musk-daily-routine/"
+
+
+
+// Data
+"Elon Musk's daily work schedule Elon Musk's daily routine can be summed up as work, eat, sleep, with work taking up a bulk of that time. With a bedtime of around 1am, Musk typically
+wakes up at 7am, getting 6 to 6.5 hours of sleep, which, he discovered over
+ the years is his sweet spot.
+
+'Sleep is really great. I find if I don't get enough sleep Im quite grumpy.
+ I could drop below a certain threshold of sleep, although I would be awake
+ more hours I would get less done because my mental acuity would be affected,'
+
+ In a 2016 interview with Y Combinator,
+  -Musk described an example day in his life juggling Tesla and SpaceX:
+
+'Gwynne Shotwell is Chief Operating Officer.
+ She kind of manages legal finance sales and kind of general business activity
+ and then my time is almost entirely with the engineering team working on improving
+ the Falcon 9 and the Dragon spacecraft and developing the Mars colonial architecture.
+ And then at Tesla, it's working on the Model 3 and some in the design studio typically
+ half a day a week dealing with aesthetics and look and feel things.
+ And then most of the rest of the week is just going through engineering of the car itself
+ as well as the engineering of the factory because the biggest epiphany I've had this year
+ is that what really matters is the machine that builds the machine the factory and that is
+ at least towards a magnitude harder than the vehicle itself.'
+ 
+ When it comes to productivity for himself and employees, Musk is well-known for his ruthless
+ efficiency. In a 2018 email sent out to Tesla employees, Musk outlined some of his 'recommendations'
+ for conducting efficient meetings:
+
+  -Excessive meetings are the blight of big companies and almost always get worse over time.
+  Please get rid of all large meetings, unless you're certain they are providing value to the
+  whole audience, in which case keep them very short.
+  
+  -Also get rid of frequent meetings, unless you are dealing with an extremely urgent matter.
+ Meeting frequency should drop rapidly once the urgent matter is resolved.
+ 
+  -Walk out of a meeting or drop off a call as soon as it is obvious you aren't adding value.
+  It is not rude to leave, it is rude to make someone stay and waste their time.
+
+ In the same email, Musk also told employees to avoid using 'acronyms or nonsense words for objects,
+  software or processes at Tesla' and encouraged the 'free flow of information between all levels,'
+  no matter the employee's role or department.
+
+ While Musk has seemingly embraced his workaholic habits and long hours, everyone has a breaking
+  point, and in 2018, it appeared that breaking point was getting dangerously close for him.
+  In a New York Times profile, Musk detailed work weeks of up to 120 hours,
+  'There were times when I didn't leave the factory for three or four days ' days when I didn't go
+  outside,' he said. 'This has really come at the expense of seeing my kids. And seeing friends.'
+
+ In a Recode Decode inteview with Kara Swisher, Musk talked about the difficult times in more detail,
+ �I would just sort of sleep for a few hours, work, sleep for a few hours, work, 
+ seven days a week. Some of those days must have been 120 hours, or something nutty.'
+ Fortunately for Musk, the days of 120 hour workweeks are over (for now), and he's back
+ to 80 or 90 hours, which he says is 'pretty sustainable.'
+
+More recently, it seems that Musk is in a much better place, work-life balance-wise.
+ In a conversation with Maureen Dowd for The New York Times, he spoke about spending
+ time with his partner, Grimes, catching up on anime (Death Note and Evangelion) and listening 
+ to history audiobooks and podcasts.
+
+When asked about how he managed to find time to spend with his children,
+ given his immense working hours, Musk replied, 'Right now there's not much I can do.
+ Grimes has a much bigger role than me right now. When the kid gets older, there will be more of a role for me.'
+
+'I think just doing what I've done with my other kids. If I have a trip for Tesla to China,
+ for example, I'll bring the kids with me and we'll go see the Great Wall or we took the bullet train from Beijing to Xian
+ and saw the Terracotta Warriors.'
+ ",
+
+
+
