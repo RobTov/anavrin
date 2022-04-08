@@ -1,0 +1,78 @@
+.courses-container {
+  background: url(../../../assets/images/coursesBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.card-container {
+  position: absolute;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: max-content;
+}
+
+.header-app {
+  z-index: 100;
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.title-container {
+  display: flex;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  h1 {
+    color: white;
+  }
+  .h11 {
+    font-size: 3rem;
+  }
+  .h12 {
+    position: relative;
+    top: 20px;
+  }
+}
+
+.card1 {
+  overflow-y: scroll;
+  box-shadow: rgb(0, 0, 0) 2px 0px 10px;
+  width: 400px;
+  height: 280px;
+  color: white;
+  background-color: rgba(190, 79, 35, 0.637);
+  margin: 3rem;
+  border-radius: 5px;
+}
+
+:hover.card1 {
+  transition: 0.5s ease-out;
+  transform: scale(1.01);
+}
+.card-header {
+  top: 16px;
+  padding: 10px;
+  background-color: teal;
+}
+:hover.card-header {
+  transition: 1s ease;
+  background-color: crimson;
+}
+.btns-cont {
+  overflow-wrap: break-word;
+  background-color: teal;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+:hover.btns-cont {
+  transition: 1s ease;
+  background-color: crimson;
+}
