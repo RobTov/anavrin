@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&family=Poppins:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+$title-font:'Arvo', serif;
+$main-font: 'Roboto', sans-serif;
+$alt-font: 'Poppins', sans-serif;
+// teal blue neon cold palette
+$main-color: #247881;
+$alt-color: #43919B;
+$alt-color2: #30AADD;
+$secondary-color: #00FFC6;
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+body {
+  font-family: $main-font;
+  overflow: hidden;
+}

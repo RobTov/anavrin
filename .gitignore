@@ -4,7 +4,8 @@ node_modules/
 __pycache__/
 .vscode
 frontend angular/.angular/cache/
-
+*.code-workspace
+*.spec.ts
 # Compiled output
 /dist
 /tmp
