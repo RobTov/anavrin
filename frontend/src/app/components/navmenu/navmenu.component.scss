@@ -1,29 +1,29 @@
 .nav-container {
-    position: absolute;
-    bottom: 2%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-bar {
-    width: auto;
-    height: 1.8rem;
+  width: auto;
+  height: 1.8rem;
 
-    border-radius: .5rem;
-    display: flex;
-    align-items: center;
-    background-color: #247881;
-    gap: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  background-color: #247881;
+  gap: 1rem;
 
-    a {
-        text-decoration: none;
-        padding: 0 .5rem;
-        color: aliceblue;
-        transition: .3s ease-in;
+  a {
+    text-decoration: none;
+    padding: 0 0.5rem;
+    color: aliceblue;
+    transition: 0.3s ease-in;
 
-        &:hover {
-            opacity: .6;
-        }
+    &:hover {
+      opacity: 0.6;
     }
+  }
 }
