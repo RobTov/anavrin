@@ -44,7 +44,7 @@ class NewUser(AbstractBaseUser, PermissionsMixin):
     avatar = models.ImageField(_('Image'), upload_to=upload_to, default='images/default.jpg')
     about = models.TextField(_(
             'about'
-    ), max_length=500, blank=True)
+    ), max_length=500, blank=True, default='This user has no info.')
     is_staff = models.BooleanField(default=False)
 
     objects = CustomAccontManager()
