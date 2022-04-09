@@ -6,6 +6,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
+  overflow-y: scroll !important;
 }
 .header-app {
   position: absolute;
@@ -14,4 +15,88 @@
   display: flex;
   width: 100%;
   justify-content: flex-end;
+}
+
+.progress {
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #43919b;
+  width: 50px;
+  height: 50px;
+  border: 10px solid #30aadd;
+}
+title-container {
+  padding: 1rem;
+  display: flex;
+}
+.card-txt-cont {
+  text-align: justify;
+
+  height: auto;
+}
+.card-txt-cont p {
+  margin: 2rem;
+}
+.img-container {
+  position: relative;
+  img {
+    height: auto;
+    width: 400px;
+  }
+}
+
+.card-header {
+  top: 16px;
+  padding: 10px;
+  background-color: teal;
+}
+:hover.card-header {
+  transition: 1s ease;
+  background-color: crimson;
+}
+.card-container {
+  position: absolute;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: max-content;
+}
+.card1 {
+  overflow-y: scroll;
+  box-shadow: rgb(0, 0, 0) 2px 0px 10px;
+  width: 400px;
+  height: 280px;
+  color: white;
+  background-color: rgba(190, 79, 35, 0.637);
+  margin: 3rem;
+  border-radius: 5px;
+}
+
+:hover.card1 {
+  transition: 0.5s ease-out;
+  transform: scale(1.01);
+}
+.btns-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-align: center;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    padding: 1rem;
+
+    text-decoration: none;
+  }
 }
