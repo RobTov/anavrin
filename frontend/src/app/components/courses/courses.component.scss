@@ -7,6 +7,7 @@
   height: 100%;
   position: fixed;
   overflow-y: scroll !important;
+  display: flex;
 }
 .header-app {
   position: absolute;
@@ -18,19 +19,20 @@
 }
 
 .progress {
-  top: 0.5rem;
+  position: absolute;
+  bottom: 0.5rem;
   right: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  position: absolute;
+
   background-color: #43919b;
   width: 50px;
   height: 50px;
   border: 10px solid #30aadd;
 }
-title-container {
+.title-container {
   padding: 1rem;
   display: flex;
 }
@@ -46,7 +48,7 @@ title-container {
   position: relative;
   img {
     height: auto;
-    width: 400px;
+    width: 300px;
   }
 }
 
@@ -72,8 +74,8 @@ title-container {
 .card1 {
   overflow-y: scroll;
   box-shadow: rgb(0, 0, 0) 2px 0px 10px;
-  width: 400px;
-  height: 280px;
+  width: 300px;
+  height: 237px;
   color: white;
   background-color: rgba(190, 79, 35, 0.637);
   margin: 3rem;

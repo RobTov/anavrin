@@ -1,0 +1,68 @@
+$main-color: #247881;
+$alt-color: #43919b;
+$alt-color2: #30aadd;
+$secondary-color: #00ffc6;
+
+.profile-container {
+  background: url(../../../assets/images/profileBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: scroll !important;
+}
+.header-app {
+  color: white;
+  padding: 2rem;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-shadow: black 2px 2px 2px;
+}
+.form-container {
+  text-shadow: black 2px 2px 2px;
+  border-radius: 25px;
+  border: 10px solid $main-color;
+  position: fixed;
+  top: 20vh;
+  left: 50vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(175, 28, 119, 0.842);
+
+  input {
+    text-align: center;
+    outline: none;
+    border: $alt-color2;
+    margin: 1rem;
+    border-radius: 25px;
+  }
+
+  h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submit-input {
+    input {
+      color: white;
+      background-color: $main-color;
+      position: relative;
+      left: 3rem;
+      padding: 0.5rem;
+      &:hover {
+        transition: 0.5s ease-in-out;
+        color: #f0b4b4;
+      }
+    }
+  }
+}
