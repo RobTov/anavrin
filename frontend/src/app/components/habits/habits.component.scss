@@ -5,6 +5,7 @@
   background-attachment: fixed;
   width: 100vw;
   height: 100vh;
+  overflow-y: scroll !important;
 }
 .header-app {
   z-index: 100;
@@ -28,4 +29,93 @@
     position: relative;
     top: 20px;
   }
+}
+.card-txt-cont {
+  text-align: justify;
+
+  height: auto;
+}
+.card-txt-cont p {
+  margin: 2rem;
+}
+.img-container {
+  position: relative;
+  img {
+    position: relative;
+    height: auto;
+    width: 200px;
+    border: 2px solid teal;
+  }
+}
+
+.card-header {
+  top: 16px;
+  padding: 10px;
+  background-color: teal;
+}
+:hover.card-header {
+  transition: 1s ease;
+  background-color: crimson;
+}
+main {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+.card-container {
+  width: max-content;
+
+  position: relative;
+}
+.card1 {
+  position: relative;
+  overflow-y: scroll;
+  box-shadow: rgb(0, 0, 0) 2px 0px 10px;
+  width: 200px;
+  height: 300px;
+  color: white;
+  background-color: rgba(190, 79, 35, 0.637);
+  margin: 1rem;
+  border-radius: 5px;
+}
+:hover.card1 {
+  transition: 0.5s ease-out;
+  transform: scale(1.01);
+}
+.text-container {
+  text-align: left;
+}
+.routine-container {
+  margin: 10px;
+  text-align: left;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+
+  .time {
+    display: block;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+  .todo {
+    display: block;
+    top: 5px;
+    text-decoration: underline;
+  }
+}
+.btn-routine {
+  justify-content: center;
+  position: relative;
+  color: white;
+  top: 5rem;
+  background-color: teal;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 25px;
+}
+.btn-routine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
