@@ -10,14 +10,16 @@
     width: 100vw;
     height: 100vh;
     color: #e6e9eb;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
- position: relative;
- height: 80vh;
- width: 100%; 
- display: flex;
- align-items: center;
+    position: relative;
+    height: 60vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -34,8 +36,8 @@ header {
 }
 
 .header-description {
-    position: relative;
-    left: 8%;
+    margin-left: 3%;
+    transform: translateY(-12%);
 
     .home-title {
         font-size: 3rem;
@@ -44,5 +46,39 @@ header {
     .home-subtitle {
         margin-top: .3rem;
         margin-left: 5rem;
+    }
+}
+
+.quotes-container {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+    margin-right: 3%;
+
+    .quotes-author {
+        font-size: 1.2rem;
+        align-self: flex-end;
+        margin-top: .3rem;
+        margin-right: 3rem;
+    }
+
+    .quotes-btn {
+        align-self: flex-end;
+        margin-right: 3rem;
+        margin-top: .7rem;
+        font-family: 'Roboto';
+        color: #e6e9eb;
+        background-color: transparent;
+        padding: .3rem .45rem;
+        border: 1px solid #43919b82;
+        border-radius: .4rem;
+        cursor: pointer;
+        transition: .3s ease-in;
+
+        &:hover {
+            background-color: #43919b82;
+        }
     }
 }

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # 3rd party packages
     'rest_framework',
+    'corsheaders',
 
     # my apps
     'habits',
@@ -52,6 +53,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -158,3 +160,6 @@ SIMPLE_JWT = {
 # MEDIA CONF
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+# Cors
+CORS_ALLOW_ALL_ORIGINS = True
