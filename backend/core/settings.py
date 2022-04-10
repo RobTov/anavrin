@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'habits',
     'users',
     'courses',
+    'quotes'
 ]
 
 MIDDLEWARE = [

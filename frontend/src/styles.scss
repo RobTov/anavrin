@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&family=Poppins:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap");
+
+$title-font: "Arvo", serif;
+$main-font: "Roboto", sans-serif;
+$alt-font: "Poppins", sans-serif;
+// teal blue neon cold palette
+$main-color: #247881;
+$alt-color: #43919b;
+$alt-color2: #30aadd;
+$secondary-color: #00ffc6;
+$white-text-color: #e6e9eb;
+
+*,
+::after,
+::before {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $main-font;
+    overflow: hidden;
+}

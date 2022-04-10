@@ -8,11 +8,12 @@ import { HomeComponent } from './components/home/home.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { RoutinesComponent } from './components/routines/routines.component';
 import { UserprofileComponent } from './components/userprofile/userprofile.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'courses', component: CoursesComponent },
-  { path: 'habits', component: CoursesComponent },
+  { path: 'habits', component: RoutinesComponent },
   { path: 'user-profile', component: CoursesComponent }
 ]
 
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

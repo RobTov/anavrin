@@ -1,1 +1,16 @@
-<p>navbar works!</p>
+<div class="nav-container">
+    <div class="nav">
+        <a [routerLink]="['']" class="nav-item">
+            <fa-icon [icon]="faHouse" ></fa-icon>
+        </a>
+        <a [routerLink]="['courses']" class="nav-item">
+            <fa-icon [icon]="faBook" ></fa-icon>
+        </a>
+        <a [routerLink]="['habits']" class="nav-item">
+            <fa-icon [icon]="faHourglassStart" ></fa-icon>
+        </a>
+        <a [routerLink]="['user-profile']" class="nav-item">
+            <fa-icon [icon]="faAddressCard" ></fa-icon>
+        </a>
+    </div>
+</div>
