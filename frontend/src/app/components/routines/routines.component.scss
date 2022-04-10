@@ -4,3 +4,63 @@ $alt-color2: #30aadd;
 $secondary-color: #00ffc6;
 $white-text-color: #e6e9eb;
 
+.routines-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: $main-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white-text-color;
+    overflow-y: auto;
+}
+
+.routines-header {
+    margin-top: 2rem;
+    font-size: 2.1rem;
+}
+
+.routine-card-cont {
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.routine-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}
+
+.routine-card-img {
+    width: 95%;
+
+    img {
+        width: inherit;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+
+.card-button-container {
+    margin-top: 1rem;
+
+    .routine-link {
+        color: $white-text-color;
+        text-decoration: none;
+        background-color: $alt-color;
+        border-radius: .4rem;
+        padding: .2rem .8rem;
+        transition: .3s ease-in;
+        
+        &:hover {
+            opacity: .7;
+            padding: .4rem 1rem;
+        }
+    }
+}

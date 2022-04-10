@@ -7,18 +7,15 @@
     </figure>
 
     <div class="routine-card-cont">
-        <div class="routine-card">
+        <div class="routine-card" *ngFor="let title of routineTitles; let i = index">
             <figure class="routine-card-img">
-                <img src="" alt="">
+                <img src="{{routinesImages[i]}}" alt="{{title.title}}">
             </figure>
             <div class="card-title-container">
-                <h3 class="routine-card-title"></h3>
+                <h3 class="routine-card-title">{{ title.title }}</h3>
             </div>
-            <div class="routine-card-desc">
-                <p class="card-desc"></p>
-                <div class="card-button-container">
-                    <a class="routine-link" [routerLink]="['/routePath']"  >Try routine</a>
-                </div>
+            <div class="card-button-container">
+                <a class="routine-link" [routerLink]="['/routePath']"  >Try routine</a>
             </div>
         </div>
     </div>

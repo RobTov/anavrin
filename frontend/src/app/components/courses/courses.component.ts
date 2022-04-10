@@ -11,8 +11,8 @@ import { LessonModel } from '../../models/lesson.model';
 export class CoursesComponent implements OnInit {
   // procastinationCourse: CourseModel;
   // productivityCourse: CourseModel;
-  courses: CourseModel[];
-  allLessons: LessonModel[];
+  courses: CourseModel[] = [];
+  allLessons: LessonModel[] = [];
   coursesImages: string[] = [
     '../../../assets/images/courses2.jpg',
     '../../../assets/images/courses1.jpg',
