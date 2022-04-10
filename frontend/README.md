@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# AnavriN
+
+-Anavrin will help you to be more productive and add some new shini knoledge to your skillset.
+-Courses
+-Routines
+
+## Links
+
+- Solution URL: [GitHub](https://github.com/RobTob/anavrin)
+- Live Site URL: []()
+
+## Built with
+
+- Angular
+- Django
+- Sass
+
+## Author
+
+- Webiste - [Rob](https://github.com/RobTov)
+- Webiste - [Omar](https://github.com/Xhadowvudu)
