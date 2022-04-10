@@ -1,1 +1,26 @@
-<p>courses works!</p>
+<section class="courses-container">
+    <h2 class="courses-header">Try one of our courses</h2>
+    <figure class="courses-img-c">
+        <img src="../../../assets/images/courses-pic1.png" alt="Courses Img" 
+            width="300px"
+        class="courses-img">
+    </figure>
+
+    <div class="courses-card-cont">
+        <div class="courses-card" *ngFor="let course of courses; let i = index">
+            <div class="card-title-container">
+                <h3 class="courses-card-title">{{ course.title }}</h3>
+            </div>
+            <figure class="courses-card-img">
+                <img src="{{coursesImages[i]}}" alt="{{ course.title }}">
+            </figure>
+            <div class="courses-card-desc">
+                <p class="card-desc">{{ course.description }}</p>
+                <div class="card-button-container">
+                    <a class="course-link" [routerLink]="['/routePath']"  >Start learing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

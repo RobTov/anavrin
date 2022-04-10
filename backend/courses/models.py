@@ -6,6 +6,7 @@ class Courses(models.Model):
     current_user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.PROTECT, null=True, blank=True)
     user_progress = models.IntegerField(default=0)
     is_completed = models.BooleanField(default=False)
+    description = models.CharField(max_length=255, default='Default course description')
     number_of_lessons = models.IntegerField()
 
     def __str__(self):
@@ -19,5 +20,5 @@ class Lessons(models.Model):
     content = models.TextField()
 
     def __str__(self):
-        return f'lesson: {self.lesson_numer}/{self.course.title}'
+        return f'lesson: {self.lesson_number}/{self.course.title}'
         

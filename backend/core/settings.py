@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # 3rd party packages
     'rest_framework',
+    'rest_framework_simplejwt',
     'corsheaders',
 
     # my apps

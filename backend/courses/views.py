@@ -20,3 +20,6 @@ class LessonsListUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = serializers.LessonsSerializer
 
 
+class LessonsList(generics.ListAPIView):
+    queryset = models.Lessons.objects.all()
+    serializer_class = serializers.LessonsSerializer

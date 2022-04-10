@@ -57,11 +57,16 @@ header {
     align-self: flex-end;
     margin-right: 3%;
 
+    .quotes-text {
+        font-style: italic;
+    }
+
     .quotes-author {
         font-size: 1.2rem;
         align-self: flex-end;
         margin-top: .3rem;
         margin-right: 3rem;
+        font-weight: 100;
     }
 
     .quotes-btn {

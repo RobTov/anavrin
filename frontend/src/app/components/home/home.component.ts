@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private quoteService: QuoteService) { }
   quotes: QuoteModel[];
-  randomQuote: QuoteModel;
+  randomQuote: QuoteModel = {id: 99, author: "", text: ""};
 
   ngOnInit(): void {
     this.quoteService.getAllQuotes()
