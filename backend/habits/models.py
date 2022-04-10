@@ -26,7 +26,7 @@ class UserHabitsModel(models.Model):
     # task = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.task
+        return self.title
 
 class Tasks(models.Model):
     habit = models.ForeignKey(UserHabitsModel, on_delete=models.PROTECT)

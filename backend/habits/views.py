@@ -1,6 +1,6 @@
 from rest_framework import generics
-from .models import HabitsModel, Title, UserHabitsModel
-from .serializers import HabitsSerializer, TitleSerializer, UserHabitsSerializer
+from .models import HabitsModel, Title, UserHabitsModel, Tasks
+from .serializers import HabitsSerializer, TitleSerializer, UserHabitsSerializer, TasksSerializer
 
 
 class TitleDetail(generics.RetrieveUpdateAPIView):
@@ -36,3 +36,17 @@ class UserHabitsDetailUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = UserHabitsSerializer
 
 user_habits_detail_ud = UserHabitsDetailUpdateDeleteView.as_view()
+
+class TaskListView(generics.ListAPIView):
+    queryset = Tasks.objects.all().order_by('-pk')
+    serializer_class = TasksSerializer
+
+task_list_view = TaskListView.as_view()
+
+class TaskDetailUpgrade(generics.RetrieveUpdateAPIView):
+    lookup_field = 'pk'
+    queryset = Tasks.objects.all()
+    serializer_class = TasksSerializer
+
+
+task_detail_upgrade = TaskDetailUpgrade.as_view()
