@@ -1,6 +1,6 @@
 from rest_framework import generics
-from .models import HabitsModel, Title
-from .serializers import HabitsSerializer, TitleSerializer
+from .models import HabitsModel, Title, UserHabitsModel
+from .serializers import HabitsSerializer, TitleSerializer, UserHabitsSerializer
 
 
 class TitleDetail(generics.RetrieveUpdateAPIView):
@@ -22,3 +22,17 @@ class HabitsDetailUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = HabitsSerializer
 
 habits_detail_ud = HabitsDetailUpdateDeleteView.as_view()
+
+
+class UserHabitsListCreateView(generics.ListCreateAPIView):
+    queryset = UserHabitsModel.objects.all()
+    serializer_class = UserHabitsSerializer
+
+user_habits_list_create_view = UserHabitsListCreateView.as_view()
+
+class UserHabitsDetailUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
+    lookup_field = 'pk'
+    queryset = UserHabitsModel.objects.all()
+    serializer_class = UserHabitsSerializer
+
+user_habits_detail_ud = UserHabitsDetailUpdateDeleteView.as_view()

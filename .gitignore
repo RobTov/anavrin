@@ -5,6 +5,8 @@ node_modules/
 __pycache__/
 .vscode
 frontend angular/.angular/cache/
+.angular/
+*.spec.ts
 
 # Compiled output
 /dist
