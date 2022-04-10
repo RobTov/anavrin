@@ -38,6 +38,7 @@ import { Study8Component } from './components/studyCourse/study8/study8.componen
 import { Study9Component } from './components/studyCourse/study9/study9.component';
 import { Study10Component } from './components/studyCourse/study10/study10.component';
 import { Study11Component } from './components/studyCourse/study11/study11.component';
+import { CompletedCourseComponent } from './components/completed-course/completed-course.component';
 
 
 
@@ -75,6 +76,7 @@ const appRoutes: Routes = [
   { path: 'courses/study/09', component: Study9Component },
   { path: 'courses/study/10', component: Study10Component },
   { path: 'courses/study/11', component: Study11Component },
+  { path: 'completed', component: CompletedCourseComponent },
 
 ]
 
@@ -116,6 +118,7 @@ const appRoutes: Routes = [
     Study9Component,
     Study10Component,
     Study11Component,
+    CompletedCourseComponent,
   
   ],
   imports: [
