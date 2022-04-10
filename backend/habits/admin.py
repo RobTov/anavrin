@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import HabitsModel, Title, UserHabitsModel
+from .models import HabitsModel, Title, UserHabitsModel, Tasks
 
 
 @admin.register(Title)
@@ -14,3 +14,7 @@ class AdminHabits(admin.ModelAdmin):
 class UserHbitsAdmin(admin.ModelAdmin):
     pass
 
+
+@admin.register(Tasks)
+class TaskAdmin(admin.ModelAdmin):
+    pass
